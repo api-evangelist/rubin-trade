@@ -1,4 +1,4 @@
-# rubin-trade
+# Rubin
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-rubin-trade is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://rubin.trade/
+Rubin is a self-custody decentralized exchange (DEX) offering crypto perpetual futures and spot markets. Users trade directly from their wallets with on-chain settlement, leveraging a transparent order book, low fees, and advanced order types. The platform provides programmatic API access for algorithmic trading, market making, and AI agents, alongside staking, referral rewards, and a vault for yield.
+
+**Areas:** Decentralized Exchange · Crypto Futures · Spot Trading · Trading API · Market Making
+
+## Rubin on APIs.io
+
+Everything profiled for Rubin is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rubin-trade/](https://apis.io/providers/rubin-trade/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Rubin API](https://apis.io/apis/rubin-trade/rubin-trade-api/) — Rubin API as documented publicly: 31 operations. Contract generated from the documentation by API Evangelist (2026-11-24); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV4CardsOperationsSummaryResponse](https://apis.io/schemas/rubin-trade/rubin-trade-get-v4-cards-operations-summary-response/)
+- [GetV4SbpCustomerResponse](https://apis.io/schemas/rubin-trade/rubin-trade-get-v4-sbp-customer-response/)
+- [GetV4SbpLimitsResponse](https://apis.io/schemas/rubin-trade/rubin-trade-get-v4-sbp-limits-response/)
+- [GetV4SbpOrdersOrderidResponse](https://apis.io/schemas/rubin-trade/rubin-trade-get-v4-sbp-orders-orderid-response/)
+- [PostV4CardsCardidRevealResponse](https://apis.io/schemas/rubin-trade/rubin-trade-post-v4-cards-cardid-reveal-response/)
+- [PostV4CardsOrdersRequest](https://apis.io/schemas/rubin-trade/rubin-trade-post-v4-cards-orders-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rubin Trade Context](https://apis.io/jsonld/rubin-trade/rubin-trade-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Rubin API Rules](https://apis.io/rules/rubin-trade/rubin-trade-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rubin Authentication](https://apis.io/security/rubin-trade/rubin-trade-authentication/)
+- [Rubin Domain Security](https://apis.io/security/rubin-trade/rubin-trade-domain-security/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rubin Rate Limits](https://apis.io/rate-limits/rubin-trade/rubin-trade-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rubin.trade/)
+- [Documentation](https://rubin.trade/learn)
+- [API reference](https://rubin.trade/trading-keys)
+- [Pricing](https://rubin.trade/)
+- [Support](https://rubin.trade/learn)
+
+## API Evangelist rating
+
+**Kin Score 39.5** — developing · rubric 0.27.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 10.5 |
+
+**Agent readiness 24.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 15.7** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rubin-trade/](https://apis.io/providers/rubin-trade/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rubin: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rubin-trade/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
